@@ -1,0 +1,69 @@
+name: FDE 每日动态更新
+
+# 每天北京时间 08:30 自动抓取（UTC 00:30）
+on:
+  schedule:
+    - cron: "30 0 * * *"          # UTC 00:30 = 北京时间 08:30
+  workflow_dispatch:              # 允许在 Actions 页面手动点一次“运行”
+    inputs:
+      window:
+        description: "抓取窗口（天）"
+        required: false
+        default: "1"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update.py"       # 改了抓取逻辑后自动跑一次验证
+      - ".github/workflows/daily.yml"
+
+permissions:
+  contents: write                 # 需要把新的 data/items.json 提交回仓库
+
+concurrency:
+  group: fde-daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 抓取最新 FDE 动态
+        env:
+          SITE_URL: "https://${{ github.repository_owner }}.github.io/${{ github.repository }}"
+        run: |
+          W="${{ github.event.inputs.window }}"
+          [ -z "$W" ] && W=1
+          python scripts/update.py --window "$W" --site-url "$SITE_URL"
+
+      - name: 提交并推送数据变更
+        run: |
+          git config user.name  "fde-daily-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/items.json data/feed.xml
+          if git diff --cached --quiet; then
+            echo "今天没有新增动态，跳过提交。"
+            exit 0
+          fi
+          NEW=$(python - <<'PY'
+          import json
+          m = json.load(open("data/items.json", encoding="utf-8")).get("meta", {})
+          print(m.get("lastRunAdded", 0))
+          PY
+          )
+          DATE=$(TZ='Asia/Shanghai' date '+%Y-%m-%d')
+          git commit -m "自动更新：${DATE} 新增 ${NEW} 条 FDE 动态"
+          git push
+
+      - name: 保留最近运行日志
+        run: cat data/items.json | head -c 300 || true

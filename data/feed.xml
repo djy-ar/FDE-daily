@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>FDE 每日行业动态</title>
+<link></link>
+<description>Forward Deployed Engineer（前线/前沿部署工程师）行业动态每日聚合</description>
+<language>zh-CN</language>
+<lastBuildDate>Sun, 01 Nov 2026 00:27:09 +0000</lastBuildDate>
+<atom:link href="data/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Ask HN: Are You a Forward Deployed Engineer?</title>
+<link>https://news.ycombinator.com/item?id=50310641</link>
+<guid isPermaLink="false">seed-042</guid>
+<source url="https://news.ycombinator.com/">Hacker News</source>
+<category>社区讨论</category>
+<pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+<description>FDE 们讨论自身定位：是高级顾问还是能借驻场视角造出别处造不出的东西？岗位价值到底是服务还是产品？ ｜ 来源：Hacker News</description>
+</item>
+<item>
+<title>百万年薪抢人背后，FDE人才缺口为何难解</title>
+<link>https://tech.gmw.cn/2026-10/30/content_39074919.htm</link>
+<guid isPermaLink="false">seed-041</guid>
+<source url="">光明网</source>
+<category>行业报告</category>
+<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
+<description>Anthropic 斥资1亿美元启动 FDE 人才培养计划，目标三年万名；字节、月之暗面开出百万级年包。银河证券称核心价值是解决 AI 落地最后一公里；缺口本质是复合型落地人才供给不足。 ｜ 来源：光明网</description>
+</item>
+<item>
+<title>FDE进厂：AI原生新岗位重写制造业产线</title>
+<link>https://m.21jingji.com/article/20261030/ac143c00c4b0723b2d169f87552d55f9_zaker.html</link>
+<guid isPermaLink="false">seed-040</guid>
+<source url="">21世纪经济报道</source>
+<category>行业观察</category>
+<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
+<description>FDE 驻场五金制造企业半年，自己动手写生产代码、参与生产流程并对结果负责，把报价经验拆解成可计算规则，显著缩短报价时间。 ｜ 来源：21世纪经济报道</description>
+</item>
+<item>
+<title>月薪最高8万元，FDE为何如此抢手？</title>
+<link>https://36kr.com/p/4046888827894272</link>
+<guid isPermaLink="false">seed-039</guid>
+<source url="">36氪</source>
+<category>薪酬人才</category>
+<pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+<description>云栖大会上阿里云霍嘉坦言不想再谈 FDE；《商业内幕》援引 Indeed 数据：2026年4月 FDE 招聘需求同比增约729%。FDE 尚无公认定价体系，价值衡量仍是难题。 ｜ 来源：36氪</description>
+</item>
+<item>
+<title>Anthropic 公开提交纳斯达克 IPO 申请（股票代码 ANT）</title>
+<link>https://news.futunn.com/flash/1002294336/anthropic-publicly-filed-its-nasdaq-ipo-application-with-the-stock</link>
+<guid isPermaLink="false">seed-038</guid>
+<source url="">富途资讯</source>
+<category>大厂动向</category>
+<pubDate>Sun, 25 Oct 2026 16:00:00 +0000</pubDate>
+<description>FDE 大战主角之一 Anthropic 递交 IPO 文件：截至6月30日六个月营收163亿美元，年收入超10万美元客户从950家增至逾1.19万家。其 FDE 体系与 1 亿美元人才培养计划的资金压力将受公开市场审视。 ｜ 来源：富途资讯</description>
+</item>
+<item>
+<title>Palantir 2026 应届生薪酬：FDSE 总包 19.2万–23.3万美元</title>
+<link>https://6figr.com/us/salary/palantir--new-grad--cy</link>
+<guid isPermaLink="false">seed-037</guid>
+<source url="">6figr</source>
+<category>薪酬人才</category>
+<pubDate>Sun, 25 Oct 2026 16:00:00 +0000</pubDate>
+<description>6figr 数据显示 Palantir 应届生 Forward-Deployed Software Engineer 总包区间 $192k–$233k，FDE 模式开创者的薪酬基准仍高于多数同级岗位。 ｜ 来源：6figr</description>
+</item>
+<item>
+<title>西门子招聘 XAgent 前沿部署工程师（FDE，深圳）</title>
+<link>https://jobs.siemens.com/zh_TW/externaljobs/JobDetail/526045</link>
+<guid isPermaLink="false">seed-036</guid>
+<source url="">Siemens Jobs</source>
+<category>大厂动向</category>
+<pubDate>Mon, 26 Oct 2026 16:00:00 +0000</pubDate>
+<description>西门子数字化工业把 FDE 定义为连接 XAgent 平台 AI 能力与工业业务的核心桥梁：深入客户现场，把业务需求转化为可落地 AI Agent 方案并对项目成功负责。 ｜ 来源：Siemens Jobs</description>
+</item>
+<item>
+<title>OpenAI 官方面向企业推出 Forward Deployed Engineering 服务页</title>
+<link>https://openai.com/business/forward-deployed-engineering/</link>
+<guid isPermaLink="false">seed-035</guid>
+<source url="https://openai.com/business/">OpenAI</source>
+<category>大厂动向</category>
+<pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+<description>OpenAI 官网强调 FDE 与客户组建同一团队，把 AI 带入生产环境，连接客户系统与上下文并覆盖测试与安全。 ｜ 来源：OpenAI</description>
+</item>
+<item>
+<title>爆火的FDE，跟驻场工程师有啥区别？</title>
+<link>https://t.cj.sina.com.cn/articles/view/5787529871/158f6b28f00101jdnm</link>
+<guid isPermaLink="false">seed-034</guid>
+<source url="">新浪财经/数据猿</source>
+<category>政策信号</category>
+<pubDate>Thu, 22 Oct 2026 16:00:00 +0000</pubDate>
+<description>同名之下混着两种东西。脉脉：2026上半年 FDE 职位发布量同比升21倍，37.3%为 AI 原生企业；猎聘：平均年薪40.8万、中位数36.6万。工信部发文鼓励服务商搭建 FDE 团队、扎根用户现场。 ｜ 来源：新浪财经/数据猿</description>
+</item>
+<item>
+<title>猎聘 FDE 职位聚合页：医药、工业自动化赛道常见 18–40K</title>
+<link>https://m.liepin.com/zpfdebqyr2/</link>
+<guid isPermaLink="false">seed-033</guid>
+<source url="">猎聘</source>
+<category>薪酬人才</category>
+<pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+<description>在招 FDE 岗位横跨医药、工业自动化等行业，多为 20-40K 区间，要求现场交付与 AI Agent 落地能力。 ｜ 来源：猎聘</description>
+</item>
+<item>
+<title>2026 FDE 完全指南：角色、薪酬与求职路径</title>
+<link>https://hashnode.com/blog/a-complete-2026-guide-to-the-forward-deployed-engineer</link>
+<guid isPermaLink="false">seed-032</guid>
+<source url="">Hashnode</source>
+<category>方法论</category>
+<pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
+<description>据 Levels.fyi 162 份报告，截至2026年10月美国 FDE 总包中位数约 22 万美元。 ｜ 来源：Hashnode</description>
+</item>
+<item>
+<title>What is a forward deployed engineer, and do you need one?</title>
+<link>https://madsalt.tech/blog/what-is-a-forward-deployed-engineer/</link>
+<guid isPermaLink="false">seed-031</guid>
+<source url="">madsalt.tech</source>
+<category>方法论</category>
+<pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+<description>面向企业读者的科普：FDE 到底做什么、你的公司是否真的需要。 ｜ 来源：madsalt.tech</description>
+</item>
+<item>
+<title>Open Forward Deployed Engineer Roles 岗位聚合站上线</title>
+<link>https://www.forwarddeployed.fun/</link>
+<guid isPermaLink="false">seed-030</guid>
+<source url="https://news.ycombinator.com/">forwarddeployed.fun</source>
+<category>薪酬人才</category>
+<pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+<description>专门聚合在招 FDE 岗位的网站 forwarddeployed.fun 在 HN 发布。 ｜ 来源：forwarddeployed.fun</description>
+</item>
+<item>
+<title>柏益华咨询：AI落地时代的关键人才——FDE人才趋势研究（2026-10）</title>
+<link>https://m.hibor.com.cn/wap_detail.aspx?id=5243420</link>
+<guid isPermaLink="false">seed-029</guid>
+<source url="">慧博投研</source>
+<category>行业报告</category>
+<pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+<description>研报：2023–2025年 FDE 岗位增长42倍（AI 工程师13倍）；美国能稳定交付 ROI 的精英 FDE 存量约2000人；计划招 FDE 的企业比例2026上半年从个位数跃升至约七成；FDE 总薪酬比同级研发高30%–50%。 ｜ 来源：慧博投研</description>
+</item>
+<item>
+<title>Show HN: Chloe——Meta 前 FDE 开源的 TypeScript AI Agent 框架</title>
+<link>https://chloejs.org/compare</link>
+<guid isPermaLink="false">seed-028</guid>
+<source url="https://news.ycombinator.com/">Hacker News</source>
+<category>方法论</category>
+<pubDate>Wed, 07 Oct 2026 16:00:00 +0000</pubDate>
+<description>作者自述在 Meta 做了两年 FDE：企业想要完全拥有 Agent 的代码、工具与评测数据，而大厂平台不给；于是开源了本地优先、任意模型的 npm 包。 ｜ 来源：Hacker News</description>
+</item>
+<item>
+<title>OpenAI 工程师涉嫌在高管会议室安装窃听设备被捕</title>
+<link>https://www.thepaper.cn/newsDetail_forward_34247443</link>
+<guid isPermaLink="false">seed-027</guid>
+<source url="">澎湃新闻</source>
+<category>大厂动向</category>
+<pubDate>Tue, 13 Oct 2026 16:00:00 +0000</pubDate>
+<description>美国司法部披露：OpenAI 一名沙特籍工程师涉嫌在讨论超级智能技术的高管会议室隐藏录音设备，已被捕并解雇。涉事者职位为工程师，事件再度牵动外界对 FDE 体系内敏感岗位管控的关注。 ｜ 来源：澎湃新闻</description>
+</item>
+<item>
+<title>TechCrunch: Forward-deployed engineers are the AI industry&#x27;s latest talent obsession</title>
+<link>https://techcrunch.com/2026-07-30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/</link>
+<guid isPermaLink="false">seed-026</guid>
+<source url="https://techcrunch.com/category/artificial-intelligence/">TechCrunch</source>
+<category>行业报告</category>
+<pubDate>Wed, 29 Jul 2026 16:00:00 +0000</pubDate>
+<description>一项研究估计，美国仅约2000名工程师具备为企业交付有意义 AI ROI 的能力，企业争抢 FDE 白热化。 ｜ 来源：TechCrunch</description>
+</item>
+<item>
+<title>这类岗位招聘需求大幅增长，年薪超18万美元</title>
+<link>https://www.fortunechina.com/shangye/c/2026-09/07/content_476586.htm</link>
+<guid isPermaLink="false">seed-025</guid>
+<source url="">财富中文网</source>
+<category>行业报告</category>
+<pubDate>Sun, 06 Sep 2026 16:00:00 +0000</pubDate>
+<description>Lightcast：2026年1–8月前线部署工程师（FDE）招聘职位同比增长超1000%、较2023年增长超4600%，而整体科技招聘量同比仅增13%。硅谷巨头效仿 Palantir 模式，让工程师直接对接客户。 ｜ 来源：财富中文网</description>
+</item>
+<item>
+<title>国机数字科技招聘 FDE 工程师（苏州，12–18K）</title>
+<link>https://www.iguopin.com/job/detail?id=204282005637039000</link>
+<guid isPermaLink="false">seed-024</guid>
+<source url="">国聘</source>
+<category>薪酬人才</category>
+<pubDate>Tue, 08 Sep 2026 16:00:00 +0000</pubDate>
+<description>深入客户生产一线，负责视觉检测、预测性维护、工业大模型等 AI 应用在制造现场的端到端交付——苏州本地也在批量开出 FDE 岗位。 ｜ 来源：国聘</description>
+</item>
+<item>
+<title>深圳半岛医疗校招 50 名 FDE（AI 前线部署工程师）</title>
+<link>https://job.tiangong.edu.cn/correcruit/content/id/56062.html</link>
+<guid isPermaLink="false">seed-023</guid>
+<source url="">高校就业网</source>
+<category>薪酬人才</category>
+<pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+<description>面向本科在校生，月薪 8000–10000 元，要求能基于大模型、AI Agent、低代码工具快速搭建方案原型；同等实践能力可放宽专业限制（须有实际运行的 AI Coding 作品）。FDE 开始下沉到校招。 ｜ 来源：高校就业网</description>
+</item>
+<item>
+<title>FDE火成风口，产品经理跟不跟？先说清3个真相</title>
+<link>https://www.woshipm.com/?p=6467287</link>
+<guid isPermaLink="false">seed-022</guid>
+<source url="">人人都是产品经理</source>
+<category>方法论</category>
+<pubDate>Sat, 19 Sep 2026 16:00:00 +0000</pubDate>
+<description>后台被问最多的问题：FDE 是不是产品经理的新出路？文章以 BOSS 直聘在招岗位（12K–45K·18薪不等）为例拆解。 ｜ 来源：人人都是产品经理</description>
+</item>
+<item>
+<title>The Rise of the Forward Deployed Engineer – and How to Do the Job Right</title>
+<link>https://www.latent.space/p/forward-deployed-engineer-best-practices</link>
+<guid isPermaLink="false">seed-021</guid>
+<source url="https://news.ycombinator.com/">Latent.Space</source>
+<category>方法论</category>
+<pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
+<description>Latent Space 梳理 FDE 崛起的原因与做好这份工作的最佳实践。 ｜ 来源：Latent.Space</description>
+</item>
+<item>
+<title>Forbes: Why The Future Of Tech Belongs To The Forward Deployed Engineer</title>
+<link>https://www.forbes.com/councils/forbestechcouncil/2026-09-10/why-the-future-of-tech-belongs-to-the-forward-deployed-engineer/</link>
+<guid isPermaLink="false">seed-020</guid>
+<source url="">Forbes</source>
+<category>行业观察</category>
+<pubDate>Wed, 09 Sep 2026 16:00:00 +0000</pubDate>
+<description>福布斯科技委员会观点：未来12个月，FDE 需求将在英国多个关键行业加速扩张。 ｜ 来源：Forbes</description>
+</item>
+<item>
+<title>这个&quot;一眼看不懂工作内容&quot;的新职业，能&quot;火&quot;多久？</title>
+<link>http://finance.china.com.cn/money/cfsh/20260902/6322944.shtml</link>
+<guid isPermaLink="false">seed-019</guid>
+<source url="">中国网财经</source>
+<category>行业观察</category>
+<pubDate>Tue, 01 Sep 2026 16:00:00 +0000</pubDate>
+<description>给服装公司搭 AI 出图工具、帮律师整理文书、教医生用 AI 看 CT——都落在 FDE 身上。OpenFDE 社区创始人韦雷概括为&quot;打通企业 AI 落地最后一公里&quot;，杭州办起 200 人规模前沿部署工程师大会。 ｜ 来源：中国网财经</description>
+</item>
+<item>
+<title>模型比拼结束，交付比拼开始：FDE重塑AI商业化最后一公里</title>
+<link>https://www.iyiou.com/news/202609021139782</link>
+<guid isPermaLink="false">seed-018</guid>
+<source url="">亿欧网</source>
+<category>行业报告</category>
+<pubDate>Tue, 01 Sep 2026 16:00:00 +0000</pubDate>
+<description>领英2026年1月报告：过去两年 FDE 岗位暴涨42倍；腾讯研究院：Indeed 上643→5330个岗位；海外平均薪资接近20万美元，国内初级 FDE 月薪10–25K。 ｜ 来源：亿欧网</description>
+</item>
+<item>
+<title>Indeed：全站列出 6300+ 个 Forward Deployed Engineer 职位</title>
+<link>https://www.indeed.com/q-forward-deployed-engineer-jobs.html</link>
+<guid isPermaLink="false">seed-017</guid>
+<source url="">Indeed</source>
+<category>薪酬人才</category>
+<pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+<description>Indeed 搜索页当前聚合 6316 个 FDE 在招职位并持续更新，是美国 FDE 需求最直接的观测窗口。 ｜ 来源：Indeed</description>
+</item>
+<item>
+<title>Recruiting Forward Deployed Engineers: 2026 Guide</title>
+<link>https://www.herohunt.ai/blog/recruiting-forward-deployed-engineers-2026/</link>
+<guid isPermaLink="false">seed-016</guid>
+<source url="">HeroHunt</source>
+<category>薪酬人才</category>
+<pubDate>Wed, 05 Aug 2026 16:00:00 +0000</pubDate>
+<description>以2026年8月市场为基准的 FDE 招聘指南：薪酬水平、公司培养项目与需求结构。 ｜ 来源：HeroHunt</description>
+</item>
+<item>
+<title>Forward Deployed Engineer: 2026 AI Hiring Guide</title>
+<link>https://www.yochana.com/forward-deployed-engineer-2026-hiring-guide/</link>
+<guid isPermaLink="false">seed-015</guid>
+<source url="">Yochana</source>
+<category>行业观察</category>
+<pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
+<description>FDE 职位同比涨700%：谁在招、干什么活、薪资区间、怎么招到。 ｜ 来源：Yochana</description>
+</item>
+<item>
+<title>Forward-deployed engineer: a $247k to $552k salary jump</title>
+<link>https://reddit.com/r/Salary/comments/1vbawdb/</link>
+<guid isPermaLink="false">seed-014</guid>
+<source url="https://news.ycombinator.com/">Hacker News/Reddit</source>
+<category>薪酬人才</category>
+<pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
+<description>HN 热议转 Reddit 案例：转岗 FDE 后总包从 24.7 万美元跳到 55.2 万美元。 ｜ 来源：Hacker News/Reddit</description>
+</item>
+<item>
+<title>Ask HN：YC 初创的 FDE 招聘写着&quot;一周七天工作制&quot;引争议</title>
+<link>https://news.ycombinator.com/item?id=49395700</link>
+<guid isPermaLink="false">seed-013</guid>
+<source url="https://news.ycombinator.com/">Hacker News</source>
+<category>社区讨论</category>
+<pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
+<description>SalesPatriot 的 FDE 岗位：工作日飞赴客户现场驻场、周末回 SF 总部继续开发，还提到 co-living。HN 上 82 分、56 条评论激辩 FDE 的工作强度边界。 ｜ 来源：Hacker News</description>
+</item>
+<item>
+<title>Every Forward Deployed Engineer Just Got Promoted</title>
+<link>https://www.furtherai.com/blog/every-forward-deployed-engineer-just-got-promoted</link>
+<guid isPermaLink="false">seed-012</guid>
+<source url="https://news.ycombinator.com/">FurtherAI</source>
+<category>方法论</category>
+<pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
+<description>观点文章：当 AI 工具把交付门槛拉低，FDE 的职责边界正在被重新定义。 ｜ 来源：FurtherAI</description>
+</item>
+<item>
+<title>FDE在国内需求激增背后：舶来的&quot;前沿部署&quot;如何在本土长出新形态？</title>
+<link>https://tech.china.com.cn/internet/20260818/413618.shtml</link>
+<guid isPermaLink="false">seed-011</guid>
+<source url="">中国网科技</source>
+<category>行业观察</category>
+<pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
+<description>Indeed 显示 FDE 岗位一年从643个增至5330个（+729%）；OpenAI 成立 Deployment Company 投入超40亿美元，AWS 组建万人级前沿部署团队，微软成立 Frontier Company；国内&quot;解决方案架构师&quot;&quot;行业交付专家&quot;等变体岗位急剧增多。 ｜ 来源：中国网科技</description>
+</item>
+<item>
+<title>What Founders Should Steal from the Forward-Deployed Engineer Model</title>
+<link>https://www.mercuryconsulting.ai/insights/forward-deployed-engineer-model</link>
+<guid isPermaLink="false">seed-010</guid>
+<source url="https://news.ycombinator.com/">Mercury Consulting</source>
+<category>方法论</category>
+<pubDate>Mon, 03 Aug 2026 16:00:00 +0000</pubDate>
+<description>创业者可以从 FDE 模式里借鉴什么：把工程能力直接放到客户问题现场。 ｜ 来源：Mercury Consulting</description>
+</item>
+<item>
+<title>Why 95%+ of Startups Get the Forward Deployed Engineer Role Wrong</title>
+<link>https://www.flybridge.com/ideas/the-bow/why-95-of-startups-get-the-forward-deployed-engineer-role-completely-wrong</link>
+<guid isPermaLink="false">seed-009</guid>
+<source url="https://news.ycombinator.com/">Flybridge</source>
+<category>方法论</category>
+<pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
+<description>多数初创把 FDE 招成了纯售前或纯外包，文章拆解真正跑通的岗位设计。 ｜ 来源：Flybridge</description>
+</item>
+<item>
+<title>2026年最火的岗位：AI FDE——坐在客户现场、年薪百万的新物种</title>
+<link>https://mp.weixin.qq.com/s?__biz=MzcwMTM2OTE0MA==&amp;idx=1&amp;mid=2247483935&amp;sn=1da2769fba7a05a9908fd369f89122ba</link>
+<guid isPermaLink="false">seed-008</guid>
+<source url="">微信公众号</source>
+<category>薪酬人才</category>
+<pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
+<description>Indeed 数据 643→5330（+729%）；猎头 Adecco 称 FDE 需求年增约800%而人才供给增速仅50%；Palantir 是最早把 FDE 制度化的公司。 ｜ 来源：微信公众号</description>
+</item>
+<item>
+<title>The Forward Deployed Engineer（完整职业指南）</title>
+<link>https://theagenticfounder.com/fde-guide</link>
+<guid isPermaLink="false">seed-007</guid>
+<source url="https://news.ycombinator.com/">The Agentic Founder</source>
+<category>方法论</category>
+<pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
+<description>面向想转 FDE 的工程师的职业指南。 ｜ 来源：The Agentic Founder</description>
+</item>
+<item>
+<title>WSJ: Why no one is interested to become a Forward Deployed Engineer</title>
+<link>https://www.wsj.com/cio-journal/the-hottest-job-in-tech-isnt-very-glamorous-dc29ab3e</link>
+<guid isPermaLink="false">seed-006</guid>
+<source url="https://news.ycombinator.com/">Wall Street Journal</source>
+<category>薪酬人才</category>
+<pubDate>Sat, 18 Jul 2026 16:00:00 +0000</pubDate>
+<description>华尔街日报 CIO 期刊：最火的科技岗位其实并不光鲜——出差、驻场、开会、改流程，愿意干的人不多，这正是缺口的另一面。 ｜ 来源：Wall Street Journal</description>
+</item>
+<item>
+<title>Forbes: Palantir And Forward Deployed Engineering – What Should We Believe?</title>
+<link>https://www.forbes.com/sites/stevebanker/2026-07-10/palantir-and-forward-deployed-engineering-what-should-we-believe/</link>
+<guid isPermaLink="false">seed-005</guid>
+<source url="">Forbes</source>
+<category>行业观察</category>
+<pubDate>Thu, 09 Jul 2026 16:00:00 +0000</pubDate>
+<description> Steve Banker 从供应链管理视角审视 FDE 模式：把工程师放到客户现场定制 AI 方案，哪些是真价值、哪些是营销话术。 ｜ 来源：Forbes</description>
+</item>
+<item>
+<title>Ask HN: Why is the term forward deployed engineer (FDE) popular all of a sudden?</title>
+<link>https://news.ycombinator.com/item?id=48507410</link>
+<guid isPermaLink="false">seed-004</guid>
+<source url="https://news.ycombinator.com/">Hacker News</source>
+<category>社区讨论</category>
+<pubDate>Fri, 12 Jun 2026 16:00:00 +0000</pubDate>
+<description>6月起 FDE 一词在 HN 频繁被问：为什么突然火了？岗位本质和可持续性的早期讨论。 ｜ 来源：Hacker News</description>
+</item>
+<item>
+<title>2026 FDE Hiring Trends: What 1000 Job Posts Reveal</title>
+<link>https://getperspective.ai/blog/2026-fde-hiring-trends-what-1000-job-posts-reveal</link>
+<guid isPermaLink="false">seed-003</guid>
+<source url="">Perspective AI</source>
+<category>行业报告</category>
+<pubDate>Sun, 07 Jun 2026 16:00:00 +0000</pubDate>
+<description>对1000条 FDE 招聘帖的量化分析：同比增长超1000%，单月职位数一度暴涨约800%。 ｜ 来源：Perspective AI</description>
+</item>
+<item>
+<title>OpenAI Forward Deployed Engineer Guide 2026 | Salary</title>
+<link>https://fde.academy/blog/openai-forward-deployed-engineer</link>
+<guid isPermaLink="false">seed-002</guid>
+<source url="">FDE Academy</source>
+<category>方法论</category>
+<pubDate>Thu, 11 Jun 2026 16:00:00 +0000</pubDate>
+<description>拆解 OpenAI FDE 的日常工作内容、2026年薪酬与团队结构。 ｜ 来源：FDE Academy</description>
+</item>
+<item>
+<title>Business Insider: FDE job postings grew more than 700%</title>
+<link>https://www.businessinsider.com/forward-deployed-engineer-jobs-in-demand-2026-5</link>
+<guid isPermaLink="false">seed-001</guid>
+<source url="">Business Insider</source>
+<category>行业报告</category>
+<pubDate>Fri, 15 May 2026 16:00:00 +0000</pubDate>
+<description>Indeed 数据：2025年4月 FDE 职位数已比1月高543%，这波增长从 2025 上半年就开始了。 ｜ 来源：Business Insider</description>
+</item>
+<item>
+<title>roadmap.sh 上线 Forward Deployed Engineer 学习路线图</title>
+<link>https://roadmap.sh/forward-deployed-engineer</link>
+<guid isPermaLink="false">seed-043</guid>
+<source url="">roadmap.sh</source>
+<category>方法论</category>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<description>把 FDE 所需技能拆成 Python/后端/Linux/AI 工程等模块的路线图页面，成为求职者常用入口。 ｜ 来源：roadmap.sh</description>
+</item>
+<item>
+<title>Anthropic 在招 Forward Deployed Engineer</title>
+<link>https://job-boards.greenhouse.io/anthropic/jobs/5423029008</link>
+<guid isPermaLink="false">seed-044</guid>
+<source url="https://job-boards.greenhouse.io/anthropic">Anthropic Greenhouse</source>
+<category>大厂动向</category>
+<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
+<description>岗位要求 4 年以上技术型客户导向经验（FDE 或带咨询/产品背景的软件工程师）。 ｜ 来源：Anthropic Greenhouse</description>
+</item>
+<item>
+<title>Palantir：Forward Deployed Software Engineer（2026/2027 应届）</title>
+<link>https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728</link>
+<guid isPermaLink="false">seed-045</guid>
+<source url="https://jobs.lever.co/palantir">Palantir Careers</source>
+<category>大厂动向</category>
+<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
+<description>FDE 模式鼻祖 Palantir 面向 2026年12月/2027春季毕业生的 FDSE 校招岗位。 ｜ 来源：Palantir Careers</description>
+</item>
+</channel>
+</rss>

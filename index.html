@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FDE 每日行业动态 · Forward Deployed Engineer</title>
+<meta name="description" content="每天 08:30 自动更新的 FDE（前线／前沿部署工程师）行业动态聚合站：人才市场、大厂动向、薪酬、政策与社区讨论。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2314213b'/><text x='32' y='42' font-family='monospace' font-size='24' font-weight='700' fill='%23e8c07d' text-anchor='middle'>FD</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <div class="brand">
+      <span class="mono-logo" aria-hidden="true">FDE</span>
+      <div>
+        <h1>FDE 每日行业动态</h1>
+        <p class="sub">Forward Deployed Engineer · 前线／前沿部署工程师</p>
+      </div>
+    </div>
+    <nav class="nav" aria-label="快捷入口">
+      <a href="https://hn.algolia.com/?query=%22forward%20deployed%20engineer%22" target="_blank" rel="noopener">HN 原始源</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">数据来源说明</a>
+      <a href="https://roadmap.sh/forward-deployed-engineer" target="_blank" rel="noopener">FDE 路线图</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section class="status" id="status" aria-live="polite">
+    <div class="spin" aria-hidden="true"></div>
+    <span>正在加载最新动态…</span>
+  </section>
+
+  <section class="controls">
+    <div class="tabs" role="tablist" aria-label="时间范围">
+      <button class="tab" role="tab" data-range="today">今日</button>
+      <button class="tab is-on" role="tab" data-range="7d">近 7 天</button>
+      <button class="tab" role="tab" data-range="30d">近 30 天</button>
+      <button class="tab" role="tab" data-range="all">全部</button>
+    </div>
+    <div class="tools">
+      <input id="q" class="q" type="search" placeholder="搜索标题 / 摘要 / 来源，如 薪酬、制造业、Palantir" aria-label="搜索条目">
+      <select id="tier" class="sel" aria-label="按类别筛选">
+        <option value="">全部类别</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="cnOnly"> 只看中文</label>
+      <button id="rssBtn" class="btn ghost" type="button">RSS</button>
+    </div>
+  </section>
+
+  <p class="count-line" id="countLine"></p>
+
+  <section class="list" id="list"></section>
+
+  <section class="empty" id="empty" hidden>
+    <p>这个筛选条件下暂无条目。换一个时间范围或清空搜索词试试。</p>
+  </section>
+
+  <section class="about">
+    <h2>这个站每天怎么更新</h2>
+    <ul>
+      <li>每天北京时间 <strong>08:30</strong>（UTC 00:30），GitHub Actions 自动抓取过去 24 小时的 FDE 相关动态，追加到站内数据文件并提交，网页刷新即见新内容。</li>
+      <li>信息源：Hacker News Algolia API（实时检索，已验证可用）、Google News 中文/英文 RSS（关键词检索）、TechCrunch AI 等科技媒体 RSS（关键词过滤）。</li>
+      <li>匹配规则严格：必须命中“forward deployed engineer / FDE / 前沿部署工程师 / 前线部署工程师 / FDDE”等术语，不做主观改写，摘要全部来自来源原文。</li>
+      <li>去重按链接与标题双指纹，同一事件不会重复堆叠。</li>
+      <li>若某天没有新动态，列表会保持原样——本站宁可留空，也不用训练记忆编造内容。</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span id="footMeta">数据文件：data/items.json</span>
+    <a class="top" href="#main">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<template id="row">
+  <article class="item">
+    <div class="meta-row">
+      <span class="src"></span>
+      <span class="tier"></span>
+      <time class="date"></time>
+      <span class="lang"></span>
+    </div>
+    <h3 class="title"><a target="_blank" rel="noopener"></a></h3>
+    <p class="sum"></p>
+    <div class="tail">
+      <span class="tags"></span>
+      <span class="hn"></span>
+      <button class="btn copy" type="button" title="复制链接">复制链接</button>
+    </div>
+  </article>
+</template>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
