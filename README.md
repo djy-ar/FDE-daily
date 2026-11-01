@@ -1,68 +1,86 @@
-# FDE 每日行业动态（GitHub Pages 站点）
+# FDE 每日行业动态
 
-每天北京时间 **08:30** 自动抓取 Forward Deployed Engineer（前线/前沿部署工程师）的最新行业动态，纯静态、零依赖、无需构建。
+聚合 Forward Deployed Engineer（FDE，前线／前沿部署工程师）相关的中英文行业动态。网站以 GitHub Pages 发布，由 GitHub Actions 定时抓取公开信息源，并生成 JSON 数据和 RSS 订阅。
 
-## 目录结构
+**在线阅读：**[FDE 每日行业动态](https://sghpedc5279.github.io/FDE-daily/) · **RSS 订阅：**[data/feed.xml](https://sghpedc5279.github.io/FDE-daily/data/feed.xml)
 
-```
-fde-daily/
-├── index.html                 # 站点入口（列表、搜索、筛选、时间范围切换）
-├── assets/
-│   ├── style.css              # 样式（自适应深色/浅色）
-│   └── app.js                 # 前端渲染（读取 data/items.json）
-├── data/
-│   ├── items.json             # 全部条目数据（Actions 每天自动追加）
-│   └── feed.xml               # RSS 订阅文件（随 items.json 自动重建）
-├── scripts/
-│   └── update.py              # 抓取脚本（仅 Python 标准库，本地也能跑）
-└── .github/workflows/
-    └── daily.yml              # 定时工作流：每天 UTC 00:30（北京 08:30）运行
-```
+## 网站功能
 
-## 上传部署（5 分钟）
+- 按今日、近 7 天、近 30 天或全部时间筛选动态。
+- 搜索标题、摘要、来源和标签，并按分类筛选；可选择只看中文条目。
+- 查看来源链接、发布日期、摘要及 Hacker News 讨论信息（如有）。
+- 订阅 RSS，或直接查看仓库中的 [`data/items.json`](data/items.json)。
 
-1. 在 GitHub 新建一个仓库（建议命名 `fde-daily`），不要勾选自动生成 README。
-2. 在本目录打开终端，执行（把 `你的用户名` 换成你的 GitHub 用户名）：
+## 收录内容与来源
 
-   ```powershell
-   git init
-   git add .
-   git commit -m "FDE daily digest site"
-   git branch -M main
-   git remote add origin https://github.com/你的用户名/fde-daily.git
-   git push -u origin main
-   ```
+目前抓取来源配置在 [`scripts/update.py`](scripts/update.py) 的 `SOURCES` 中：
 
-   也可以直接在 GitHub 网页上把本文件夹内容拖进仓库上传。
-3. 仓库 **Settings → Pages** → Source 选 **Deploy from a branch** → Branch 选 `main` / `/ (root)` → Save。
-4. 等 1～2 分钟，站点地址即 `https://你的用户名.github.io/fde-daily/`。
-5. 到仓库 **Actions** 页签，找到 "FDE 每日行业动态更新"，点 **Run workflow** 手动触发一次，验证自动更新链路（Actions 在海外网络环境运行，Google News / HN / 各媒体 RSS 全部可达）。
+- **Hacker News Algolia API**：搜索 FDE 相关讨论。
+- **Google News RSS**：分别检索中文和英文关键词。
+- **科技媒体 RSS**：TechCrunch、The Verge AI、VentureBeat 的 AI 栏目。
 
-> 首次推送后 Actions 需要仓库开启 workflow 权限：Settings → Actions → General → Workflow permissions 选 **Read and write permissions**（或依赖 daily.yml 里已声明的 `contents: write`，默认即可）。
+采集结果还要通过术语过滤：标题、摘要或标签中必须出现 FDE 相关表述（例如 “forward deployed engineer”、独立词 “FDE” 或中文相关术语）才会收录。程序保留来源标题和摘要，不自行改写；按链接和标题去重，最多保留 2,000 条且不超过一年，RSS 输出最新的 60 条。分类规则也在 `scripts/update.py` 中维护。
 
-## 更新机制说明
+## 更新方式
 
-- 定时：`cron: "30 0 * * *"`（UTC）＝ 北京时间每天 08:30，Actions 跑 `scripts/update.py` 抓取过去 24 小时新条目，追加进 `data/items.json` 并自动 commit + push。网页刷新即见。
-- 信息源（在 `scripts/update.py` 顶部 `SOURCES` 里增删）：
-  - Hacker News Algolia API（英文社区）
-  - Google News RSS：`"前沿部署工程师" OR "前线部署工程师"…`（中文）与 `"forward deployed engineer"`（英文）
-  - TechCrunch / The Verge / VentureBeat 的 AI RSS，按关键词过滤
-- 防编造闸门：标题+摘要必须命中 FDE 相关术语才入库；抓取只搬运来源原文，不做改写；某天没有新动态就不产出空更新。
-- 去重：链接指纹 + 标题指纹双重去重；数据保留一年、最多 2000 条。
-- 若连续几天 Actions 红色报错（多半是某个源改版），打开 Actions 日志看 `源 xx 失败` 字样，把对应源注释掉即可，不影响其他源。
+工作流配置见 [`.github/workflows/daily.yml`](.github/workflows/daily.yml)：
 
-## 本地预览
+- 每天 **北京时间 08:30**（UTC 00:30）运行。
+- 可在仓库的 **Actions → FDE 每日动态更新 → Run workflow** 手动运行，并设置抓取窗口 `window`（天数，默认 1）。
+- 修改 `scripts/update.py` 或工作流文件并推送到 `main` 时，也会触发一次运行。
+- 工作流使用 Python 3.11 和仓库内置的 Python 标准库，无需安装第三方依赖；运行后更新 `data/items.json` 和 `data/feed.xml`。
 
-`file://` 直接双击打开会被浏览器拦截本地 JSON，请起一个静态服务：
+每次运行都会刷新数据元信息和 RSS 生成时间，即使没有新增条目也可能产生数据文件提交。某个来源没有产出匹配条目时，工作流不一定报错；可在 `data/items.json` 的 `meta.lastRunFailedSources` 查看本次无结果或失败的来源，再到 Actions 日志区分是暂无匹配内容还是抓取异常。
 
-```powershell
-cd fde-daily
+## 本地预览与调试
+
+需要 Python 3；项目没有额外依赖。先在仓库根目录启动静态服务器：
+
+```bash
 python -m http.server 8000
-# 浏览器访问 http://localhost:8000
 ```
+
+浏览器打开 <http://localhost:8000>。直接以 `file://` 打开 `index.html` 通常无法加载 JSON 数据。
+
+可在本地手动运行抓取脚本（需要能够访问配置中的公开信息源）：
+
+```bash
+# 只抓取并显示结果，不写入文件
+python scripts/update.py --dry-run
+
+# 抓取最近 7 天
+python scripts/update.py --window 7
+
+# 根据现有 items.json 重新生成 RSS
+python scripts/update.py --rebuild-feed
+```
+
+## 仓库结构
+
+```text
+.
+├── index.html                    # 页面结构与筛选控件
+├── assets/
+│   ├── app.js                    # 加载、筛选和渲染条目
+│   └── style.css                 # 页面样式与响应式布局
+├── data/
+│   ├── items.json                # 条目及更新元信息
+│   └── feed.xml                  # RSS 订阅文件
+├── scripts/
+│   └── update.py                # 信息源抓取、过滤、去重和数据生成
+└── .github/workflows/
+    └── daily.yml                 # 定时及手动更新工作流
+```
+
+## 部署到自己的仓库
+
+1. Fork 本仓库，并在仓库 **Settings → Pages** 中将 Source 设为 `Deploy from a branch`，选择 `main` 和 `/(root)`。
+2. 在 **Settings → Actions → General → Workflow permissions** 中允许工作流写入仓库内容，以便自动提交更新后的数据文件。
+3. 等待 Pages 发布完成；站点地址通常是 `https://<用户名>.github.io/<仓库名>/`。工作流会根据仓库名称设置站点 URL。
 
 ## 定制
 
-- 改时间：编辑 `.github/workflows/daily.yml` 的 cron（UTC = 北京时间 - 8 小时）。
-- 加中文源：Google News RSS 关键词加进 `update.py` 的 `SOURCES`；若有可靠 RSS 直接用 `type: "rss"`。
-- 换主题色：`assets/style.css` 顶部 CSS 变量。
+- **调整运行时间：**修改 `.github/workflows/daily.yml` 中的 cron（按 UTC 设置；北京时间 = UTC + 8 小时）。
+- **增删信息源或搜索词：**修改 `scripts/update.py` 中的 `SOURCES`；支持 `hn`、`gnews` 和 `rss` 类型。
+- **调整过滤或分类：**修改 `TERMS` 和 `TIER_RULES`，并检查前端 `assets/app.js` 中的术语过滤规则。
+- **调整样式：**修改 `assets/style.css`。
