@@ -2,7 +2,7 @@
  "meta": {
   "siteName": "FDE 每日行业动态",
   "topic": "Forward Deployed Engineer (FDE)",
-  "updated": "2026-11-03 15:08 北京时间",
+  "updated": "2026-11-04 14:53 北京时间",
   "nextRun": "每天 08:30 北京时间（GitHub Actions cron '30 0 * * *' UTC）",
   "generatedBy": "scripts/update.py（自动抓取，仅搬运来源原文，不做主观改写）",
   "count": 45,
