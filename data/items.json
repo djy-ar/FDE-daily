@@ -2,13 +2,12 @@
  "meta": {
   "siteName": "FDE 每日行业动态",
   "topic": "Forward Deployed Engineer (FDE)",
-  "updated": "2026-11-16 15:07 北京时间",
+  "updated": "2026-11-17 16:20 北京时间",
   "nextRun": "每天 08:30 北京时间（GitHub Actions cron '30 0 * * *' UTC）",
   "generatedBy": "scripts/update.py（自动抓取，仅搬运来源原文，不做主观改写）",
-  "count": 45,
-  "lastRunAdded": 0,
+  "count": 46,
+  "lastRunAdded": 1,
   "lastRunFailedSources": [
-   "Hacker News",
    "Google News 中文",
    "Google News EN",
    "TechCrunch",
@@ -18,6 +17,28 @@
   "window": "首版覆盖 2026-05 至今"
  },
  "items": [
+  {
+   "id": "1ce7c104ffe08c75",
+   "url": "https://www.dialogkey.com/careers/119ce7f304",
+   "title": "Forward Deployed Engineer – AI/ML and Data Science",
+   "summary": "",
+   "source": "Hacker News",
+   "sourceUrl": "https://news.ycombinator.com/",
+   "published": "2026-11-17",
+   "lang": "en",
+   "tier": "社区讨论",
+   "tags": [
+    "HN",
+    "story",
+    "author_CathereneNganga",
+    "story_50525715"
+   ],
+   "hn": {
+    "id": "50525715",
+    "points": 2,
+    "comments": 0
+   }
+  },
   {
    "id": "seed-035",
    "url": "https://openai.com/business/forward-deployed-engineering/",
